@@ -23,6 +23,7 @@ export default class ContactForm extends Component {
 
   render() {
     const { name, number } = this.state;
+
     return (
       <form onSubmit={this.handleSubmit}>
         <label>
